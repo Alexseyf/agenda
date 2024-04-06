@@ -1,0 +1,116 @@
+:root {
+  --btn1-color: #4db9e3;
+  --btn2-color: #f6c462;
+  --btn3-color: #ea809c;
+  --btn3-color: #ea809c;
+  --btn4-color: #55fa66;
+  --btn5-color: #1eb5bc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.btn12 {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+}
+
+.btn12__btn1 {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+  background-color: var(--btn1-color);
+}
+.btn12__btn2 {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+  background-color: var(--btn2-color);
+}
+
+.btn34 {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+}
+
+.btn34__btn3 {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+  background-color: var(--btn3-color);
+}
+
+.btn34__btn4 {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+  background-color: var(--btn4-color);
+}
+
+.btn__btn5 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: var(--btn5-color);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.btn__btn5 span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+}
+
+.btn12__btn1 span {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+}
+
+.btn12__btn2 span {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+}
+
+.btn34__btn3 span {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+}
+
+.btn34__btn4 span {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+}
