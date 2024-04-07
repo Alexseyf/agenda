@@ -68,49 +68,50 @@ main {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-.btn__btn5 span {
+.btn__btn5 img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 5rem;
-  color: white;
+  filter: invert(100%);
 }
 
-.btn12__btn1 span {
+.btn12__btn1 img {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 5rem;
-  color: white;
+  filter: invert(100%);
 }
 
-.btn12__btn2 span {
+.btn12__btn2 img {
   position: absolute;
   top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 5rem;
-  color: white;
+  filter: invert(100%);
 }
 
-.btn34__btn3 span {
+.btn34__btn3 img {
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 5rem;
-  color: white;
+  filter: invert(100%);
 }
 
-.btn34__btn4 span {
+.btn34__btn4 img {
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 5rem;
-  color: white;
+  filter: invert(100%);
 }
